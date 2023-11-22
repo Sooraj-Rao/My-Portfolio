@@ -1,0 +1,15 @@
+@tailwind components;
+@tailwind utilities;
+
+body,
+.TopBar {
+    background-color: rgb(20, 19, 26);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.Sidebar,
+.TechProj,
+.MoreProj {
+    background-color: rgb(28, 27, 35);
+}
