@@ -1,6 +1,6 @@
 import React from 'react'
 import { social } from './Data.jsx'
-import { linkedin, github, instagram, file, twitter, Close } from '../../public/SVG/Svg.jsx'
+import { linkedin, github, instagram, file, twitter } from '../../public/SVG/Svg'
 
 const Navbar = ({ show }) => {
 
@@ -8,12 +8,12 @@ const Navbar = ({ show }) => {
 
     return (
         <div>
-            <div className='  gap-3 ml-10 fixed mt-2 lg:flex hidden'>
+            <div className='  gap-3 ml-8 fixed mt-2 lg:flex hidden'>
                 <h1 className='h-4 w-4 rounded-full bg-green-400'></h1>
                 <h1 className='h-4 w-4 rounded-full bg-blue-500'></h1>
                 <h1 className='h-4 w-4 rounded-full bg-red-500'></h1>
             </div>
-            <div className={` overflow-hidden font-sans duration-500 lg:mt-[5.3rem] mt-[4.2rem] pt-10    rounded-xl h-[30rem] fixed Sidebar
+            <div className={` overflow-hidden font-sans duration-500 lg:mt-[5.3rem] mt-[4.5rem] pt-10    rounded-xl h-[30rem] fixed Sidebar
         lg:block   
         -ml-2
         lg:ml-4

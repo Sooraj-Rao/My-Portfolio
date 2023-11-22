@@ -1,12 +1,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar{
+    display: none;
+}
 body,
 .TopBar {
     background-color: rgb(20, 19, 26);
-}
-body::-webkit-scrollbar{
-    display: none;
 }
 .Sidebar,
 .TechProj,

@@ -18,9 +18,13 @@ const App = () => {
         </div>
         <div className='lg:w-[80%] xl:w-[76%s] w-full  absolute right-0  top-0 '>
           <Topbar show={show} setshow={setshow} />
-          <NavTop />
-          <Project />
-          <TechProj />
+          <div className={` ${show ? 'blur-lg' : 'blur-none'} `}
+            style={{ 'filter': show && ' blur(1rem)' }}
+          >
+            <NavTop />
+            <Project />
+            <TechProj />
+          </div>
         </div>
       </div>
     </>

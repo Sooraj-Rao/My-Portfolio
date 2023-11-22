@@ -3,7 +3,7 @@ import { Project2 } from '../Components/Data'
 
 const Project = () => {
     return (
-        <div className=' m-4 font-sans Project text-slate-900' >
+        <div className=' m-4 font-sans Project text-slate-100' >
             <h3 className='  font-medium'>Projects</h3>
             <div className=' flex  gap-6  lg:flex-nowrap flex-wrap lg:justify-normal justify-center'>
 
@@ -13,16 +13,15 @@ const Project = () => {
                         const desc = Object.values(item)[0];
                         const img = Object.values(item)[1];
                         return (
-                            <div className=' md:h-72 h-fit w-[90%] sm:w-[24rem] md:w-[24rem] bg-slate-300 Sidebar   rounded-lg overflow-hidden'
-                                key={i}
-                            >
-                                <div className=' h-full '>
-                                    <div className=' h-[55%] overflow-hidden     '>
-                                        <img src={img} alt="img" height="100%" width="100%" />
+                            <div className=' md:h-72 h-fit hover:[transform:translateY(-4px)] duration-200 w-[90%] sm:w-[24rem] md:w-[24rem] bg-slate-300 Sidebar  cursor-pointer rounded-lg overflow-hidden'
+                                key={i}>
+                                <div className=' h-full   '>
+                                    <div className=' h-[55%]       '>
+                                        <img src={img} alt="img" className=' h-full w-full ' />
                                     </div>
                                     <div className=' p-4 '>
-                                        <span className=' text-base font-bold text-slate-200'>{title}</span><br />
-                                        <span className=' text-sm text-slate-300'>
+                                        <span className=' text-base font-bold '>{title}</span><br />
+                                        <span className=' text-sm '>
                                             {desc.map((item, i) => {
                                                 return (
                                                     <span key={i}>{desc.length == i || i == 0 ? '' : ','}{" "}{item}</span>

@@ -16,7 +16,7 @@ export const social = [
     }
 ]
 export const TECHS = [
-    ['HTML', 'CSS', 'Javascript', , 'React', 'Next JS', 'Tailwind', 'TypeScript'],
+    ['HTML', 'CSS', 'Javascript', 'React', 'Tailwind', 'Next JS', 'TypeScript'],
     ['Node JS', 'Express JS', 'PHP', 'MongoDB', 'Firebase', 'MySQL', 'PostgreSQL'],
     ['Git', 'Framer Motion', 'GraphQL']
 ]

@@ -5,7 +5,7 @@ import { linkedinWhite } from '../../public/SVG/Svg'
 const NavTop = () => {
     const { LinkedIn } = social.find((item) => item.LinkedIn)
     return (
-        <div>
+        <div className=' mt-20 cursor-default'>
             <div
                 className=' bg-cover md:mx-4    rounded mt-2   bg-[url("../../Image/Navbg1.jpeg")]   h-40
                 '>
