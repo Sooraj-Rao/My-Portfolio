@@ -1,6 +1,6 @@
 import React from 'react'
 import { TECHS, Head, Project1 } from './Data'
-import { arrow, file } from '../../public/SVG/Svg'
+import { arrow, Folder } from '../../public/SVG/Svg'
 
 const TechProj = () => {
     return (
@@ -59,7 +59,7 @@ const TechProj = () => {
                                 return (
                                     <div className='h-fit w-full  group   hover:bg-zinc-800 sm:py-0 py-2  flex cursor-pointer' key={i} >
                                         <span className='w-1/5 lg:ml-10 sm:ml-14 ml-5 self-center'>
-                                            {file}
+                                            {Folder}
                                         </span>
                                         <div className='w-1/2  self-center h-20   '>
                                             <span>{Object.keys(item)}</span><br />

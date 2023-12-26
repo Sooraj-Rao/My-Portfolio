@@ -1,10 +1,10 @@
 import React from 'react'
 import { social } from './Data.jsx'
-import { linkedin, github, instagram, file, twitter } from '../../public/SVG/Svg'
+import { linkedin, github, instagram, file, twitter, mail } from '../../public/SVG/Svg'
 
 const Navbar = ({ show }) => {
 
-    const svg = [instagram, github, linkedin, twitter, file]
+    const svg = [instagram, github, linkedin, twitter, mail, file]
 
     return (
         <div>
@@ -23,7 +23,6 @@ const Navbar = ({ show }) => {
             >
 
                 <div className=' flex justify-center  '>
-                    {/* font pecifico */}
                     <img src="../../Image/sign.png" className='w-40 mx-auto' alt="logo" />
                 </div>
                 {

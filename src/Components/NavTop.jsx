@@ -1,14 +1,17 @@
 import React from 'react'
 import { social } from './Data'
+import bgUrl from '../../public/Image/Navbg.jpg'
+import Image from '../../public/Image/Image.jpg'
 import { linkedinWhite } from '../../public/SVG/Svg'
 
 const NavTop = () => {
     const { LinkedIn } = social.find((item) => item.LinkedIn)
+    
     return (
         <div className=' mt-20 cursor-default'>
-            <div
-                className=' bg-cover md:mx-4    rounded mt-2   bg-[url("../../Image/Navbg1.jpeg")]   h-40
-                '>
+            <div style={{ background: `url(${bgUrl})` }}
+                className={` bg-cover md:mx-4 rounded mt-2  h-40
+                `}>
                 <div className=' h-full
                 md:px-10
                 relative 
@@ -25,7 +28,7 @@ const NavTop = () => {
                         '>
                             <div
                                 className=' md:h-[7.5rem] md:w-[7.5rem] h-[7rem] w-[7rem]   rounded-full overflow-hidden  shadow-white shadow-[0px_0px_.1rem_.3rem]   '>
-                                <img src="../../Image/Image.png" alt="Image" className='  h-full w-full  ' />
+                                <img src={Image} alt="Image" className='  h-full w-full  ' />
                             </div>
                             <div className='  md:mt-6 mt-3 text-white  flex flex-col gap-1'>
                                 <span className=' md:text-3xl text-2xl font-bold '>Sooraj Rao</span>

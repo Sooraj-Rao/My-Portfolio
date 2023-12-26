@@ -3,13 +3,16 @@ export const social = [
         Instagram: 'https://www.instagram.com'
     },
     {
-        Github: 'https://www.github.com'
+        Github: 'https://github.com/Sooraj-Rao/'
     },
     {
-        LinkedIn: 'https://www.linkedin.com'
+        LinkedIn: 'https://bit.ly/Sooraj_LinkedIn'
     },
     {
         Twitter: 'https://twitter.com/Sooraj__Rao'
+    },
+    {
+        Mail:'mailto:soorajrao180@gmail.com'
     },
     {
         Resume: '../../Resume/Resume.pdf'
@@ -40,18 +43,18 @@ export const Project1 = [
 export const Project2 = [
     {
         'SJ-Clothing': ['NextJs', 'PsotgreSql', 'Docker', 'Frirbase'],
-        img: '../../Image/movie-reviwer.png'
+        img: '../../Image/movie.jpg'
     },
     {
         'Fle share': ['Next Js', 'Sql', 'Docker', 'Shaj', 'React', 'PsotgreSql',],
-        img: '../../Image/Mech.png'
+        img: '../../Image/Mech.jpg'
     },
     {
         'Etherium hacker': ['React', 'PsotgreSql', 'Docker', 'Mongo'],
-        img: '../../Image/movie-reviwer.png'
+        img: '../../Image/movie.jpg'
     },
     {
         'Snake Game': ['NextJs', 'PsotgreSql', 'Docker', 'Redis', 'Sql', 'Docker'],
-        img: '../../Image/Mech.png'
+        img: '../../Image/Mech.jpg'
     }
 ]

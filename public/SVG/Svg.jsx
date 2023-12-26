@@ -10,15 +10,16 @@ export const instagram = <svg width="1.5rem" height="1.5rem" viewBox="0 0 24 24"
 </svg>
 
 
-export const file = <svg width="1.5rem" height="1.5rem" viewBox="-3 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns: sketch="http://www.bohemiancoding.com/sketch/ns">
-    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" sketch: type="MSPage">
-        <g id="Icon-Set-Filled" sketch: type="MSLayerGroup" transform="translate(-156.000000, -101.000000)" fill="">
-            <path fill="gray" d="M176,109 C174.896,109 174,108.104 174,107 L174,103 L180,109 L176,109 L176,109 Z M174,101 L174,101.028 C173.872,101.028 160,101 160,101 C157.791,101 156,102.791 156,105 L156,129 C156,131.209 157.791,133 160,133 L178,133 C180.209,133 182,131.209 182,129 L182,111 L182,109 L174,101 L174,101 Z" id="file-document" sketch: type="MSShapeGroup">
-            </path>
-        </g>
+export const file = <svg width="1.6rem" height="1.6rem" viewBox="0 0 48 48" version="1" xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 48 48">
+    <polygon fill="#90CAF9" points="40,45 8,45 8,3 30,3 40,13" />
+    <polygon fill="#E1F5FE" points="38.5,14 29,14 29,4.5" />
+    <g fill="#1976D2">
+        <rect x="16" y="21" width="17" height="2" />
+        <rect x="16" y="25" width="13" height="2" />
+        <rect x="16" y="29" width="17" height="2" />
+        <rect x="16" y="33" width="13" height="2" />
     </g>
 </svg>
-
 export const github = <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2a9d8f" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-github">
     <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
     <path d="M9 18c-4.51 2-5-2-7-2"></path>
@@ -30,6 +31,16 @@ export const twitter = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 5
 
 export const arrow = <svg width="2rem" height="2rem" className=' z-50' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z" fill="white" />
+</svg>
+
+export const mail = <svg fill="rgb(203, 197, 197)" xmlns="http://www.w3.org/2000/svg"
+    height="1.6rem" width="1.6rem" viewBox="0 0 52 52" enableBackground="new 0 0 52 52" xmlSpace="preserve">
+    <g>
+        <path d="M24.9,30.1c0.6,0.6,1.5,0.6,2.1,0l22.6-21C50,8.3,49.9,7,48.3,7L3.6,7.1c-1.2,0-2.2,1.1-1.3,2.1L24.9,30.1z
+   "/>
+        <path d="M50,17.3c0-1-1.2-1.6-2-0.9L30.3,32.7c-1.2,1.1-2.7,1.7-4.3,1.7s-3.1-0.6-4.3-1.6L4.1,16.4
+   c-0.8-0.7-2-0.2-2,0.9C2,17,2,40,2,40c0,2.2,1.8,4,4,4h40c2.2,0,4-1.8,4-4C50,34,50,21.8,50,17.3z"/>
+    </g>
 </svg>
 
 export const linkedinWhite = <svg width="1.7rem" height="1.7rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +58,15 @@ export const Close = <svg height="1.2rem" width="1.2rem" viewBox="0 -0.5 21 21" 
             <polygon id="close-[#1511]" points="375.0183 90 384 98.554 382.48065 100 373.5 91.446 364.5183 100 363 98.554 371.98065 90 363 81.446 364.5183 80 373.5 88.554 382.48065 80 384 81.446"> </polygon> </g> </g> </g> </g></svg>
 
 export const Contact = <svg height="1rem" width="1rem" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="white"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier">
-    <title>profile [#1341]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" strokeWidth="1" fill="white" fillRule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -2159.000000)" fill="rgb(143, 143, 143)"> <g id="icons" transform="translate(56.000000, 160.000000)">
+     <g id="Page-1" stroke="none" strokeWidth="1" fill="white" fillRule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -2159.000000)" fill="white"> <g id="icons" transform="translate(56.000000, 160.000000)">
         <path d="M134,2008.99998 C131.783496,2008.99998 129.980955,2007.20598 129.980955,2004.99998 C129.980955,2002.79398 131.783496,2000.99998 134,2000.99998 C136.216504,2000.99998 138.019045,2002.79398 138.019045,2004.99998 C138.019045,2007.20598 136.216504,2008.99998 134,2008.99998 M137.775893,2009.67298 C139.370449,2008.39598 140.299854,2006.33098 139.958235,2004.06998 C139.561354,2001.44698 137.368965,1999.34798 134.722423,1999.04198 C131.070116,1998.61898 127.971432,2001.44898 127.971432,2004.99998 C127.971432,2006.88998 128.851603,2008.57398 130.224107,2009.67298 C126.852128,2010.93398 124.390463,2013.89498 124.004634,2017.89098 C123.948368,2018.48198 124.411563,2018.99998 125.008391,2018.99998 C125.519814,2018.99998 125.955881,2018.61598 126.001095,2018.10898 C126.404004,2013.64598 129.837274,2010.99998 134,2010.99998 C138.162726,2010.99998 141.595996,2013.64598 141.998905,2018.10898 C142.044119,2018.61598 142.480186,2018.99998 142.991609,2018.99998 C143.588437,2018.99998 144.051632,2018.48198 143.995366,2017.89098 C143.609537,2013.89498 141.147872,2010.93398 137.775893,2009.67298" id="profile-[#1341]">
         </path> </g> </g> </g> </g></svg>
 
+export const Folder = <svg width="1.6rem" height="1.6rem" viewBox="0 0 24 24" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <g transform="translate(0 -1028.4)">
+        <path d="m2 1033.4c-1.1046 0-2 0.9-2 2v14c0 1.1 0.89543 2 2 2h20c1.105 0 2-0.9 2-2v-14c0-1.1-0.895-2-2-2h-20z" fill="#2980b9" />
+        <path d="m3 1029.4c-1.1046 0-2 0.9-2 2v14c0 1.1 0.8954 2 2 2h11 5 2c1.105 0 2-0.9 2-2v-9-3c0-1.1-0.895-2-2-2h-2-5-1l-3-2h-7z" fill="#2980b9" />
+        <path d="m23 1042.4v-8c0-1.1-0.895-2-2-2h-11-5-2c-1.1046 0-2 0.9-2 2v8h22z" fill="#bdc3c7" />
+        <path d="m2 1033.4c-1.1046 0-2 0.9-2 2v6 1 6c0 1.1 0.89543 2 2 2h20c1.105 0 2-0.9 2-2v-6-1-6c0-1.1-0.895-2-2-2h-20z" fill="#3498db" />
+    </g>
+</svg>
