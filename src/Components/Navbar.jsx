@@ -4,7 +4,7 @@ import { linkedin, github, instagram, file, twitter, mail } from '../../public/S
 
 const Navbar = ({ show }) => {
 
-    const svg = [instagram, github, linkedin, twitter, mail, file]
+    const svg = [ github, linkedin, twitter, mail, file]
 
     return (
         <div>

@@ -1,7 +1,7 @@
 export const social = [
-    {
-        Instagram: 'https://www.instagram.com'
-    },
+    // {
+    //     Instagram: 'https://www.instagram.com'
+    // },
     {
         Github: 'https://github.com/Sooraj-Rao/'
     },
@@ -12,7 +12,7 @@ export const social = [
         Twitter: 'https://twitter.com/Sooraj__Rao'
     },
     {
-        Mail:'mailto:soorajrao180@gmail.com'
+        Mail: 'mailto:soorajrao180@gmail.com'
     },
     {
         Resume: '../../Resume/Resume.pdf'
@@ -27,34 +27,44 @@ export const Head = ['FrontEnd', 'BackEnd', 'Other'];
 
 export const Project1 = [
     {
-        'SJ-Clothing': ['NextJs', 'PsotgreSql', 'Docker', 'Frirbase']
+        'Admin-Dashboard': ['React, MongoDB, Express, NodeJs, Tailwind'],
+        github: 'https://github.com/Sooraj-Rao/Admin-Shop-DashBoard',
     },
     {
-        'Fle share': ['Next Js', 'Sql', 'Docker', 'Shaj', 'React', 'PsotgreSql',]
+        'QR Generator (API)': ['Javascript'],
+        github: 'https://sooraj-rao.github.io/QR-Generator/',
     },
     {
-        'Etherium hacker': ['React', 'PsotgreSql', 'Docker', 'Mongo']
+        'E-Commerce': ['In Progress..']
     },
     {
-        'Snake Game': ['NextJs', 'PsotgreSql', 'Docker', 'Redis', 'Sql', 'Docker']
+        'Google Docs Clone': ['In Progress..']
     }
 ]
 
 export const Project2 = [
     {
-        'SJ-Clothing': ['NextJs', 'PsotgreSql', 'Docker', 'Frirbase'],
-        img: '../../Image/movie.jpg'
+        'Find-My-Mechanic': ['React', 'MongoDB', 'NodeJS', 'ExpressJS', 'Framer Motion'],
+        img: '../../Image/Mech.jpg',
+        github: 'https://github.com/Sooraj-Rao/FindMyMechanic',
+        live: 'https://find-my-mechanic.vercel.app/'
     },
     {
-        'Fle share': ['Next Js', 'Sql', 'Docker', 'Shaj', 'React', 'PsotgreSql',],
-        img: '../../Image/Mech.jpg'
+        'Movie-Reviewer': ['React', 'Firebase', 'Tailwind'],
+        img: '../../Image/movie.jpg',
+        github: 'https://github.com/Sooraj-Rao/MovieRulz',
+        live: 'https://srj-movie-rulz.vercel.app/'
     },
     {
-        'Etherium hacker': ['React', 'PsotgreSql', 'Docker', 'Mongo'],
-        img: '../../Image/movie.jpg'
+        'File-Sharing-App': ['Next-JS', 'Firebase', 'Tailwind', 'NodeMailer'],
+        img: '../../Image/file-share.png',
+        github: 'https://github.com/Sooraj-Rao/File-Sharing',
+        live: 'https://srj-file-sharing.vercel.app/'
     },
     {
-        'Snake Game': ['NextJs', 'PsotgreSql', 'Docker', 'Redis', 'Sql', 'Docker'],
-        img: '../../Image/Mech.jpg'
+        'URL-Shortner': ['React', 'MongoDB', 'ExpressJS', 'Tailwind'],
+        img: '../../Image/URL-short.png',
+        github: 'https://github.com/Sooraj-Rao/URL-shortner',
+        live: 'https://srj-url-shortner.vercel.app/'
     }
 ]

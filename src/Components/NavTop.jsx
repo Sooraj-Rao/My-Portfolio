@@ -6,16 +6,16 @@ import { linkedinWhite } from '../../public/SVG/Svg'
 
 const NavTop = () => {
     const { LinkedIn } = social.find((item) => item.LinkedIn)
-    
+
     return (
         <div className=' mt-20 cursor-default'>
             <div style={{ background: `url(${bgUrl})` }}
-                className={` bg-cover md:mx-4 rounded mt-2  h-40
+                className={` bg-cover md:mx-4 rounded mt-2  h-40 
                 `}>
                 <div className=' h-full
                 md:px-10
-                relative 
-                ' style={{ 'backdropFilter': 'blur(1rem)' }}>
+                relative
+                ' style={{ 'backdropFilter': 'blur(1rem) ' }}>
                     <div className=' flex font-sans  items-center h-full
                     md:justify-between
                     justify-center
@@ -32,7 +32,7 @@ const NavTop = () => {
                             </div>
                             <div className='  md:mt-6 mt-3 text-white  flex flex-col gap-1'>
                                 <span className=' md:text-3xl text-2xl font-bold '>Sooraj Rao</span>
-                                <span className=' md:text-lg text-base'>@Sooraj18</span>
+                                <span className=' md:text-lg text-base'>@soorajrao180</span>
                             </div>
                         </div>
                         <div className=' absolute right-0 bottom-0 md:relative group flex 

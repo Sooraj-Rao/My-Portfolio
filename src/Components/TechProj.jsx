@@ -56,13 +56,14 @@ const TechProj = () => {
                         {
                             Project1.map((item, i) => {
                                 let ele = (Object.values(item))
+                                let github = item.github || null;
                                 return (
-                                    <div className='h-fit w-full  group   hover:bg-zinc-800 sm:py-0 py-2  flex cursor-pointer' key={i} >
+                                    <div onClick={() => github ? window.open(github, '_blank') : ''} className={`h-fit w-full  group   hover:bg-zinc-800 sm:py-0 py-2  flex ${github?' cursor-pointer':' cursor-progress'}`} key={i} >
                                         <span className='w-1/5 lg:ml-10 sm:ml-14 ml-5 self-center'>
                                             {Folder}
                                         </span>
                                         <div className='w-1/2  self-center h-20   '>
-                                            <span>{Object.keys(item)}</span><br />
+                                            <span>{Object.keys(item)[0]}</span><br />
                                             {
                                                 ele[0].map((item, i) => {
                                                     return (
