@@ -13,7 +13,7 @@ const Navbar = ({ show }) => {
                 <h1 className='h-4 w-4 rounded-full bg-blue-500'></h1>
                 <h1 className='h-4 w-4 rounded-full bg-red-500'></h1>
             </div>
-            <div className={` overflow-hidden font-sans duration-500 lg:mt-[5.3rem] mt-[4.5rem] pt-10    rounded-xl h-[30rem] fixed Sidebar
+            <div className={` overflow-hidden font-sans duration-500 lg:mt-[5.3rem] mt-[4.5rem] pt-10    rounded-xl h-[30rem] fixed bg-[#1c1b23] 
         lg:block   
         -ml-2
         lg:ml-4
@@ -45,6 +45,9 @@ const Navbar = ({ show }) => {
                         )
                     })
                 }
+            <div className=' flex justify-center mt-16 invisible '>
+              <img src="https://visitcount.itsvg.in/api?id=sooraj&label=Profile%20Views&color=0&icon=0&pretty=false" />
+            </div>
             </div>
         </div>
     )

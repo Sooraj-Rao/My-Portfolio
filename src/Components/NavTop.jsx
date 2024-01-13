@@ -27,8 +27,8 @@ const NavTop = () => {
                          px-1   
                         '>
                             <div
-                                className=' md:h-[7.5rem] md:w-[7.5rem] h-[7rem] w-[7rem]   rounded-full overflow-hidden  shadow-white shadow-[0px_0px_.1rem_.3rem]   '>
-                                <img src={Image} alt="Image" className='  h-full w-full  ' />
+                                className=' md:h-[7.5rem] md:w-[7.5rem] h-[7rem] w-[7rem]   rounded-full overflow-hidden    shadow-white shadow-[0px_0px_.1rem_.3rem]   '>
+                                <img src={Image} alt="Image" className='  h-full w-full     ' />
                             </div>
                             <div className='  md:mt-6 mt-3 text-white  flex flex-col gap-1'>
                                 <span className=' md:text-3xl text-2xl font-bold '>Sooraj Rao</span>

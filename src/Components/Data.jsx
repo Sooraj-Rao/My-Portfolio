@@ -31,11 +31,12 @@ export const Project1 = [
         github: 'https://github.com/Sooraj-Rao/Admin-Shop-DashBoard',
     },
     {
-        'QR Generator (API)': ['Javascript'],
-        github: 'https://sooraj-rao.github.io/QR-Generator/',
+        'Movie-Reviewer': ['React', 'Firebase', 'Tailwind'],
+        github: 'https://srj-movie-rulz.vercel.app/',
     },
     {
-        'E-Commerce': ['In Progress..']
+        'QR Generator (API)': ['Javascript'],
+        github: 'https://sooraj-rao.github.io/QR-Generator/',
     },
     {
         'Google Docs Clone': ['In Progress..']
@@ -50,10 +51,16 @@ export const Project2 = [
         live: 'https://find-my-mechanic.vercel.app/'
     },
     {
-        'Movie-Reviewer': ['React', 'Firebase', 'Tailwind'],
-        img: '../../Image/movie.jpg',
-        github: 'https://github.com/Sooraj-Rao/MovieRulz',
-        live: 'https://srj-movie-rulz.vercel.app/'
+        'Quick-Mart (E-commerce)': ['React, MongoDB, Express, NodeJs, Tailwind, RazorPay'],
+        img: '../../Image/quickmart.png',
+        github: 'https://github.com/Sooraj-Rao/E-commerce',
+        live: 'https://srj-quickmart.vercel.app/'
+    },
+    {
+        'URL-Shortner': ['React', 'MongoDB', 'ExpressJS', 'Tailwind'],
+        img: '../../Image/URL-short.png',
+        github: 'https://github.com/Sooraj-Rao/URL-shortner',
+        live: 'https://srj-url-shortner.vercel.app/'
     },
     {
         'File-Sharing-App': ['Next-JS', 'Firebase', 'Tailwind', 'NodeMailer'],
@@ -61,10 +68,4 @@ export const Project2 = [
         github: 'https://github.com/Sooraj-Rao/File-Sharing',
         live: 'https://srj-file-sharing.vercel.app/'
     },
-    {
-        'URL-Shortner': ['React', 'MongoDB', 'ExpressJS', 'Tailwind'],
-        img: '../../Image/URL-short.png',
-        github: 'https://github.com/Sooraj-Rao/URL-shortner',
-        live: 'https://srj-url-shortner.vercel.app/'
-    }
 ]

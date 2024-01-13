@@ -11,7 +11,7 @@ const TechProj = () => {
                     {
                         TECHS.map((item, i) => {
                             return (
-                                <div className='sm:w-full w-10/12 2xl:w-[20%] xl:w-[17%] lg:h-[13rem] h-fit  px-5  pb-10  TechProj text-slate-400 rounded-lg '
+                                <div className='sm:w-full w-10/12 2xl:w-[20%] xl:w-[17%] lg:h-[13rem] h-fit  px-5  pb-10  bg-[#1c1b23] text-slate-400 rounded-lg '
                                     key={i}
                                 >
                                     <div className=' h-full  w-full    '>
@@ -46,7 +46,7 @@ const TechProj = () => {
             </div>
 
             <div className='  justify-center flex sm:h-[26rem] h-[32rem] mt-10 xl:mt-0   '>
-                <div className=' h-fit md:mr-3 pb-2  rounded  absolute xl:right-0 MoreProj text-slate-200 
+                <div className=' h-fit md:mr-3 pb-2  rounded  absolute xl:right-0 bg-[#1c1b23] text-slate-200 
              xl:w-[25vw] 2xl:w-[20vw] 
              md:w-[37rem] md:ml-5
              sm:w-[36rem] sm:-ml-2 w-10/12 

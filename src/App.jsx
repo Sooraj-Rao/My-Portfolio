@@ -25,6 +25,7 @@ const App = () => {
             <Project />
             <TechProj />
           </div>
+
         </div>
       </div>
     </>
