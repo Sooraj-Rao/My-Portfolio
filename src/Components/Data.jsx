@@ -52,7 +52,7 @@ export const Project2 = [
     },
     {
         'Quick-Mart (E-commerce)': ['React, MongoDB, Express, NodeJs, Tailwind, RazorPay'],
-        img: '../../Image/quickmart.png',
+        img: '../../Image/quickmart.jpg',
         github: 'https://github.com/Sooraj-Rao/E-commerce',
         live: 'https://srj-quickmart.vercel.app/'
     },

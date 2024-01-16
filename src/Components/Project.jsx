@@ -5,7 +5,7 @@ import { Live, github, github2 } from '../../public/SVG/Svg';
 const Project = () => {
     return (
         <div className=' m-4 font-sans  text-slate-100' >
-            <h3 className='  font-medium'>Projects</h3>
+            <h3 className='  font-medium text-xl'>Projects</h3>
             <div className=' flex  gap-6  lg:flex-nowrap flex-wrap lg:justify-normal justify-center'>
 
                 {
@@ -14,11 +14,11 @@ const Project = () => {
                         const desc = Object.values(item)[0];
                         const img = Object.values(item)[1];
                         return (
-                            <div className='relative md:h-72 h-fit group  duration-200 w-[90%] sm:w-[24rem] md:w-[24rem]  bg-[#1c1b23]   rounded-lg overflow-hidden'
+                            <div className='relative md:h-72 h-fit group  duration-200 w-[90%] sm:w-[24rem] md:w-[24rem]  bg   rounded-lg overflow-hidden'
                                 key={i}>
                                 <div className=' h-full   '>
-                                    <div className=' h-[55%]'>
-                                        <img src={img} alt="img" className=' h-full w-full ' />
+                                    <div className=' h-[55%] bg-slate-400'>
+                                        <img loading='lazy' src={img} alt="img" className=' h-full w-full ' />
                                     </div>
                                     <div className=' p-4 '>
                                         <span className=' text-base font-semibold  '>{title}</span><br />
@@ -30,7 +30,7 @@ const Project = () => {
                                             })}
                                         </span>
                                         <div className=' group-hover:opacity-100 opacity-0 duration-500 hover:duration-500'>
-                                            <button className=' flex gap-x-2 items-center cursor-pointer absolute md:bottom-2 bottom-[80%] hover:bg-[#14131a]  bg-[#1c1b23] border-slate-400  border text-white outline-none  px-2  rounded-md xl:text-base text-xs' onClick={() => window.open(item.live, '_blank')}>
+                                            <button className=' flex gap-x-2 items-center cursor-pointer absolute md:bottom-2 bottom-[80%] bg hover:border-blue-400 hover:text-blue-400   border-slate-400  border text-white outline-none  px-2  rounded-md xl:text-base text-xs' onClick={() => window.open(item.live, '_blank')}>
                                                 <span>
                                                     Live
                                                 </span>
@@ -38,7 +38,7 @@ const Project = () => {
                                                     {Live}
                                                 </span>
                                             </button>
-                                            <button className='flex items-center gap-x-2 cursor-pointer absolute md:bottom-2 bottom-[80%] hover:bg-[#14131a]  bg-[#1c1b23] border-slate-400 border text-white outline-none  px-2   right-4 rounded-md xl:text-base text-xs' onClick={() => window.open(item.github, '_blank')}>
+                                            <button className='flex items-center gap-x-2 cursor-pointer absolute md:bottom-2 bottom-[80%] bg hover:border-blue-400 hover:text-blue-400 outline-none  px-2 border-slate-400    border text-white right-4 rounded-md xl:text-base text-xs' onClick={() => window.open(item.github, '_blank')}>
                                                 <span>GitHub</span>
                                                 <span className=' mt-1'>{github2}</span>
                                             </button>

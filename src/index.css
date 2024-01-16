@@ -4,6 +4,10 @@
 body::-webkit-scrollbar{
     display: none;
 }
-body {
-    background-color: rgb(20, 19, 26);
+body,.bg2 {
+    background: linear-gradient(90deg,rgb(1, 20, 42),rgb(1, 20, 42),rgb(2, 31, 64));
 }
+.bg{
+    background: rgb(4, 0, 20);
+}
+
